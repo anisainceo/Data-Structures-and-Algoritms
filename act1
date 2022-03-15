@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the side1 value for right triangle: ");                                                             
+        double side1 = in.nextDouble();
+
+        System.out.print("Enter the side2 value for right triangle: ");
+        double side2 = in.nextDouble();
+
+        double hypotenuse = Math.sqrt(Math.pow(side1, 2) + Math.pow(side2, 2));
+
+        System.out.println("The value of the hypotenuse is: " + hypotenuse);
+
+    }
+}
